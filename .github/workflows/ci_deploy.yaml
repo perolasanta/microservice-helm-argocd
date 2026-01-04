@@ -2,7 +2,7 @@ name: Build and Deploy to GitHub Pages and docker Hub
 on:
   push:
     branches:
-      - main
+      - main, ci
   workflow_dispatch:
 permissions:
   contents: write
