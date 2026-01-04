@@ -2,8 +2,8 @@
 replicaCount: 1
 
 image:
-  repository: flaskapp
-  tag: latest
+  repository: petbell/flaskapp
+  tag: 5bedca4
   pullPolicy: IfNotPresent
 
 service:
