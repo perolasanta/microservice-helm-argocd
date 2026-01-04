@@ -1,8 +1,8 @@
 name: Build and Deploy to GitHub Pages and docker Hub
 on:
   push:
-    branches:
-      - [main, ci]
+    branches: [main, ci] # only trigger on these branches
+      
   workflow_dispatch:
 permissions:
   contents: write
