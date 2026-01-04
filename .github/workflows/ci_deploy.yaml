@@ -53,6 +53,5 @@ jobs:
           git config --global user.email "peteroebello@gmail.com "
           git add ./charts/app/values.yaml
           git commit -m "Update Helm chart with new Docker image tag: 
-          ${{steps.tag.outputs.tag}}"
-          || echo "No changes to commit"
+          ${{steps.tag.outputs.tag}}" || echo "No changes to commit"
           git push origin main
