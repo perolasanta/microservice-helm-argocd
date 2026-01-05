@@ -3,7 +3,7 @@ replicaCount: 3
 
 image:
   repository: petbell/flaskapp
-  tag: 5bedca4
+  tag: 464aeb0
   pullPolicy: IfNotPresent
 
 service:
